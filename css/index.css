@@ -4,15 +4,13 @@ a {
 }
 
 .layout-default {
-    position: absolute;
-    left: 20%;
     max-width: 800px;
     min-width: 800px;
     margin-left: auto;
     margin-right: auto
 }
 
-/* body {
-    background: #d2d9db;
-} */
+body {
+    background: snow;
+}
 

@@ -1,3 +1,26 @@
+div > form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=email], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.coluna:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .coluna .left,
 .coluna .right {
     display: inline-block;
@@ -5,13 +28,11 @@
 
 .coluna .left {
     width: 20%;
-    height: 20px;
     float: left;
 }
 
 .coluna .right {
     width: 80%;
-    height: 20px;
     float: right;
 }
 .coluna .left-radio-sexo {

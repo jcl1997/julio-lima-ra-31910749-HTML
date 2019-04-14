@@ -1,0 +1,40 @@
+.coluna .left,
+.coluna .right {
+    display: inline-block;
+}
+
+.coluna .left {
+    width: 20%;
+    height: 20px;
+    float: left;
+}
+
+.coluna .right {
+    width: 80%;
+    height: 20px;
+    float: right;
+}
+.coluna .left-radio-sexo {
+    width: 20%;
+    min-height: 80px;
+    float: left;
+}
+
+.coluna .right-radio-sexo {
+    width: 80%;
+    min-height: 80px;
+    float: right;
+}
+
+.coluna .left-radio-estado-civil {
+    width: 20%;
+    min-height: 120px;
+    float: left;
+}
+
+.coluna .right-radio-estado-civil {
+    width: 80%;
+    min-height: 120px;
+    float: right;
+}
+

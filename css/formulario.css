@@ -2,6 +2,7 @@ div > form{
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  height: 1200px;
 }
 
 input[type=text],
@@ -42,33 +43,39 @@ input[type=submit]:hover {
 
 .coluna .left {
     width: 20%;
+    line-height:3;
     float: left;
 }
 
 .coluna .right {
     width: 80%;
+    line-height:3;
     float: right;
 }
 .coluna .left-radio-sexo {
     width: 20%;
+    line-height:3;
     min-height: 80px;
     float: left;
 }
 
 .coluna .right-radio-sexo {
     width: 80%;
+    line-height:3;
     min-height: 80px;
     float: right;
 }
 
 .coluna .left-radio-estado-civil {
     width: 20%;
+    line-height:3;
     min-height: 120px;
     float: left;
 }
 
 .coluna .right-radio-estado-civil {
     width: 80%;
+    line-height:3;
     min-height: 120px;
     float: right;
 }
